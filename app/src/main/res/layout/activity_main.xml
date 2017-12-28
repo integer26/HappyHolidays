@@ -24,7 +24,7 @@
             android:layout_centerInParent="true"
             android:backgroundTint="@android:color/white"
             android:fontFamily="@font/cabin_semibold"
-            android:text="Happy Holidays"
+            android:text="@string/happy_holidays"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@android:color/black"
             android:textSize="30sp"
