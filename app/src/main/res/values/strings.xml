@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Happy Holidays</string>
     <string name="happy_holidays">Happy Holidays</string>
+    <string name="click_for_my_greetings">Click for my Greetings</string>
 </resources>

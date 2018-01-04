@@ -28,4 +28,14 @@ public class MainActivity extends AppCompatActivity {
         toast.show();
     }
 
+    public void greetings(View view) {
+
+        Context context = getApplicationContext();
+        CharSequence text = "A special greeting to all those who are part of this fantastic adventure of the Google developer scholarship!";
+        int duration = Toast.LENGTH_LONG;
+
+        Toast toast = Toast.makeText(context, text, duration);
+        toast.show();
+
+    }
 }

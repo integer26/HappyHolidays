@@ -9,8 +9,8 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/sfondo"
         android:scaleType="centerCrop"
+        android:src="@drawable/sfondo"
         />
 
     <RelativeLayout
@@ -24,11 +24,25 @@
             android:layout_centerInParent="true"
             android:backgroundTint="@android:color/white"
             android:fontFamily="@font/cabin_semibold"
+            android:onClick="mess"
             android:text="@string/happy_holidays"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@android:color/white"
+            android:fontFamily="@font/cabin_semibold"
+            android:onClick="greetings"
+            android:text="@string/click_for_my_greetings"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/black"
             android:textSize="30sp"
-            android:onClick="mess"
             />
 
 
